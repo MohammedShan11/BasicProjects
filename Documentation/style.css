@@ -1,0 +1,33 @@
+.main{
+background:url(gradent2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+div.left{
+    display: grid;
+    grid-template-columns: minmax(200px,auto);   
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 10px; 
+}
+nav#navbar{
+    grid-area: navbar;
+    position: fixed;
+}
+nav#navbar a h3{
+    display: block;
+    border: 1px solid black;
+    padding:10px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+main#maindoc{
+    grid-area: mainContent;
+}
+p{
+    font-size: larger;
+}
+li{
+    font-size: larger;
+}

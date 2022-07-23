@@ -1,0 +1,98 @@
+header{
+    text-align: center;
+    color: blueviolet;
+}
+.head1{
+ font-family: 'Gill Sans';
+ text-align: center;
+ color: rgb(223, 23, 83);
+ font-size:50px;
+}
+body{
+    background:rgba(24, 23, 23, 0.7) url(baiq-daling-K63facPD8gg-unsplash-scaled.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    color: #333333;
+}
+.menu a:hover{
+    color: darkred;
+    
+}
+.navcont ul li a{
+    color: aliceblue;
+}
+ul li{
+    display: inline;
+}
+nav{
+    text-align: center;
+    
+}
+#me img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 3px;
+}
+form{
+    align-content: center;
+}
+.contact{
+    background-image: url(mandala-illustration_53876-75291.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+label{
+    text-align: center;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+.navcont ul li a{
+text-decoration: none;
+font-weight: bold;
+justify-content: space-between;
+padding: 4px;
+}
+#row1 h1{
+    text-align: center;
+    color: chartreuse;
+} 
+#container2 .btn{
+    border-radius: 10px;
+    color: rgb(13, 24, 8);
+    background-color: rgb(240, 111, 36);
+}
+#row2{
+    background: url(prices.jpeg);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50;
+}
+#row2 .btn{
+    margin-left:35%;
+}
+#row3{
+    background: url(specials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+#row3.btn{
+    margin-left:35%;
+}
+#container3 .btn{
+    border-radius: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <style>
+        body{
+            background: url(pexels-suvan-chowdhury-144428.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .menu a:hover{
+            color: darkred;
+        }
+        ul li{
+            display: inline;}
+            .navcont ul li a{
+                text-decoration: none;
+                font-weight: bold;
+                justify-content: space-between;
+                padding: 4px;
+                }
+                .si{
+                    color: cadetblue;
+                }
+                .play h1{
+                    
+                    text-align: center;
+                }
+                .play img{
+                    width: 30px;
+                    height: 30px;
+                    left: 50%;
+                }
+                .play button{
+                    margin-left: 50%;
+                }
+                footer{
+                    text-align: center;
+                    margin-top: 50%;
+                }
+    </style>
+    
+</head>
+<body>
+    <div class="si">
+        <nav class="navcont">
+        <ul>
+    <li class="menu"><a href="#">HOME</a></li>
+    <li class="menu"><a href="#">ABOUT</a></li>
+    <li class="menu"><a href="#">MENU</a></li>
+    <li class="menu"><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+</div>
+<div class="play">
+    <h1>Play Music </h1>
+    <audio id="mysound"src="ackcent new.mp3" autoplay="false"></audio>
+    <button type="button" onclick="mfunction()"><img src="Play-512.webp" alt=""></button>
+</div>
+<script type="text/javascript">
+var mysound=document.getElementById("mysound");
+var icon=document.getElementById("icon");
+function mfunction(){
+    if(mysound.paused){
+        mysound.play();
+        icon.src="download.jpeg";
+    }
+    else{
+        mysound.pause();
+        icon.src="";
+
+    }
+}
+</script>
+<footer>copyright© 2022 myenterprice</footer>
+</body>
+</html>

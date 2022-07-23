@@ -1,0 +1,68 @@
+body{
+    /* background: url(the-importance-of-elearning-advantages-and-benefits-768x431.webp); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.body{
+    background: url(the-importance-of-elearning-advantages-and-benefits-768x431.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    display: flex;
+}
+.main img{
+    display:flex;
+    width: 100px;
+    height:70px;
+    margin-bottom: 3px;
+}
+.navcont ul li a{
+text-decoration: none;
+font-weight: bold;
+justify-content: space-between;
+padding: 6px;
+}
+.navcont ul li{
+    display: inline;
+
+}
+.navcont ul li a:hover{
+    color: red;
+    transition: 1s;
+}
+#head1{
+    color: rgb(6, 59, 26);
+    font-family:cursive;
+    font-size: 70px;
+    margin-top: 10%;
+    text-shadow: 0,0,20px,darkgreen;
+    
+}
+#head2{
+    color: chocolate;
+    font-family: cursive;
+    font-size: 60px;
+}
+.button{
+    margin-left: 20%;
+} 
+.btn{
+    margin-left: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+hr{
+    margin-top: 2%;
+    border: 1px solid rgb(106, 163, 31);
+    
+}
+.web a{
+    
+}
+

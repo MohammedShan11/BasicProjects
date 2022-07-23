@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: url(pexels-jeffrey-czum-3330118.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic Details</h1>
+    <form action="biodata.html">
+       <label>Name:</label><input type="text" placeholder="Full Name"><br><br>
+        <label for="">Email:</label><input type="email" placeholder="Email Address"><br><br>
+        <label for="">Gender:</label><input type="radio"name="radio" value="male">male 
+        <input type="radio"name="radio" value="female">female <br><br>
+        <label for="">Age: </label><input type="number" name="age" id="age"><br><br>
+        <label for="">Address: </label><textarea></textarea><br><br>
+        <label for="">Phone Number: </label><input type="number" name="mobno" id="ph"><br><br>
+        <label for="">Language Known: </label>
+        <input type="checkbox" >Malayalam <br>
+        <input type="checkbox" >English <br>
+        <input type="checkbox" >Arabic <br>
+        <input type="checkbox" >Hindi <br>
+        <input type="checkbox" >Tamil  <br><br>
+        <label for="">College: </label>
+        <select name="college" id="college">
+            <option value="aljamia">AL JAMIA ARTS AND SCIENCE COLLEGE</option>
+             <option value="mstm">MSTM ARTS AND SCIENCE COLLEGE</option>
+              <option value="gems">GEMS ARTS AND SCIENCE COLLEGE</option>
+        </select><br><br>
+        <label for="">Department: </label>
+        <select name="department" id="college">
+            <option value="bca">BACHELOR OF COMPUTER APPLICATION</option>
+             <option value="bsc cs">BSC COMPUTER SCIENCE</option>
+              <option value="mca">MASTER OF COMPUTER APPLICATION</option>
+        </select><br><br>
+        <input type="reset" name="abort" value="reset">
+        <input type="submit" name="submit" id="submit" value="submit">
+
+    </form>
+</body>
+</html>

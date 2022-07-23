@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+div.left{
+position: fixed;
+background:url(images/bg.jpg);
+padding: 50px;
+width: 50%;
+height: 100%;
+}
+div.content{
+    margin: 20%;
+    background: rgba(88, 240, 83, 0.185);
+}
+div.content h1.head1{ 
+    text-transform: uppercase;
+    padding: 5px;
+}
+div.content p.para1{
+padding: 5px;
+}
+
+div.right{
+background: rgb(233, 78, 22);
+margin-left: 50%;
+height: 100%;
+}
