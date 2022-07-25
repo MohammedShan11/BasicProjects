@@ -5,6 +5,7 @@
 div.left{
 position: fixed;
 background:url(images/bg.jpg);
+background-size: cover;
 padding: 50px;
 width: 50%;
 height: 100%;

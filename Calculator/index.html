@@ -9,29 +9,31 @@
     <script src="javascript/script.js"></script>
 </head>
 <body>
-    
-    <div class="center">
-        <h1>My Calculator</h1>
+    <h1>My Calculator</h1>
+    <div class="container">
+        
         <form action="" name="form1">
+            <p>Citizen</p>
             <input type="text" name="answer" id="result"><br><br>
-            <input class="btn" type="button" value="1" onclick="dis('1')">
-            <input class="btn" type="button" value="2" onclick="dis('2')">
-            <input class="btn" type="button" value="3" onclick="dis('3')">
-            <input class="btn" type="button" value="/" onclick="dis('/')"><br><br>
-            <input class="btn" type="button" value="4" onclick="dis('4')">
-            <input class="btn" type="button" value="5" onclick="dis('5')">
-            <input class="btn" type="button" value="6" onclick="dis('6')">
-            <input class="btn" type="button" value="*" onclick="dis('*')"><br><br>
-            <input class="btn" type="button" value="7" onclick="dis('7')">
-            <input class="btn" type="button" value="8" onclick="dis('8')">
-            <input class="btn" type="button" value="9" onclick="dis('9')">
-            <input class="btn" type="button" value="-" onclick="dis('-')"><br><br>
-            <input class="btn" type="button" value="0" onclick="dis('0')">
+            
+            <input class="btn" type="button" value="7" onclick="dis(7)">
+            <input class="btn" type="button" value="8" onclick="dis(8)">
+    <input class="btn" type="button" value="9" onclick="dis(9)">
+    <input class="operator" type="button" value="/" onclick="dis('/')"><br><br>
+            <input class="btn" type="button" value="4" onclick="dis(4)">
+            <input class="btn" type="button" value="5" onclick="dis(5)">
+            <input class="btn" type="button" value="6" onclick="dis(6)">
+            <input class="operator" type="button" value="*" onclick="dis('*')"><br><br>
+            <input class="btn" type="button" value="1" onclick="dis(1)">
+            <input class="btn" type="button" value="2" onclick="dis(2)">
+    <input class="btn" type="button" value="3" onclick="dis(3)">
+    <input class="operator" type="button" value="-" onclick="dis('-')"><br><br>
+            <input class="btn" type="button" value="0" onclick="dis(0)">
             <input class="btn" type="button" value="." onclick="dis('.')">
             <input class="btn" type="button" value="=" onclick="solve()">
-            <input class="btn" type="button" value="+" onclick="dis('+')"><br><br>
-            <input class="btn" type="reset" value="Clear All" onclick="dis('')">
-            <input class="btn" type="button" value="<">
+            <input class="operator" type="button" value="+" onclick="dis('+')"><br><br>
+            <input class="clear" type="button" value="C" onclick="clean()">
+            <input class="back" type="button" value="CE" onclick="del()">
         </form>
     </div>
 </body>

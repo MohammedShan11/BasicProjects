@@ -1,18 +1,50 @@
-div.center{
-    margin: 200px 500px;
-    background-color: chartreuse;
-    padding-left: 6px;
-    width: 210px;
-    border: 1px solid black;
+h1{
+    text-align: center;
 }
-input{
-    padding-left: 10px;
+.container{
+    width: 460px;
+    height:700px;
+    background-color: rgb(56, 49, 49);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
 }
-input.btn{
-    background-color: aqua;
-    margin: 6px;
-    padding: px 6px;
+p {
+    color: rgb(248, 239, 236);
+    font-size: 1.7em;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
- form input.btn :hover{
-    color: black;
+input#result {
+    background-color: rgb(232, 232, 241);
+    height: 65px;
+    width: 450px;
+    font-size: 2.53rem;
+    text-align: right;
 }
+input[type=button] {
+    background-color: rgb(12, 12, 15);
+    color: aliceblue;
+    width: 92px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 2.5rem;
+}
+input.operator{
+    background-color: rgba(185, 140, 140, 0.5);
+}
+input.clear{
+    width: 13rem;
+    font-size:2.5rem;
+    background-color: brown;
+}
+input.back{
+    width: 13rem;
+    font-size:2.5rem;
+}input[type=button]:hover{
+    border: solid rgb(122, 168, 76);
+}
+
+
