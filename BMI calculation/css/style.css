@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.head{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.container{
+    margin: auto;
+    width: 370px;
+    height: 200px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 19px 1px;
+    padding: 30px;
+}
+#row1{
+    padding: 20px;
+}
+input[type="range"]{
+    width: 70%;
+    height: 2.5px;
+    border-radius: 3px;
+}
+#row3{
+    padding: 20px;
+}

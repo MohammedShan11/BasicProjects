@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
+</head>
+<body>
+    <h1 class="head">BMI Calculator</h1>
+    <div class="container">
+    <div id="row1">
+    <label for="Weight">Weight</label>
+    <input type="range"  oninput="calculate()" name="" id="weight" min="0" 
+    max="200" value="20" step="1">
+    <span id="wtval">20 kg</span>
+    </div>
+    <div id="row2">
+        <label for="height">Height</label>
+        <input type="range" oninput="calculate()" name="" id="height" min="0" 
+        max="250" value="90" step="1"> 
+        <span id="htval">90 cm</span>  
+    </div>
+    <div id="row3">
+    <p id="result">20.0</p>
+    <p id="category">Normal Weight</p>
+</div>
+</div>
+</body>
+</html>
