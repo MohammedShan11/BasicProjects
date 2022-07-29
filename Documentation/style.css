@@ -5,6 +5,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 }
 div.left{
+    padding: 0px 50px;
     display: grid;
     grid-template-columns: minmax(200px,auto);   
     grid-template-areas: "navbar mainContent";
@@ -15,9 +16,13 @@ nav#navbar{
     position: fixed;
 }
 nav#navbar a{
+    padding:50px;
     text-decoration: none;
 } 
 nav#navbar a h3{
+    font-size: 30px;
+    width: 20rem;
+    text-align: center;
     display: block;
     border: 1px solid black;
     padding:10px;
@@ -27,10 +32,18 @@ nav#navbar a h3{
 }
 main#maindoc{
     grid-area: mainContent;
+    margin-left: 200px;
 }
 p{
-    font-size: larger;
+    font-size: 40px;
 }
 li{
-    font-size: larger;
+    font-size: 45px;
+    font-weight: 600;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
 }

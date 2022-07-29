@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(170, 33, 33), rgb(138, 148, 45));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,p{
+    text-align: center;
+    padding: 30px;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    
+    margin: auto;
+    display: flex;
+}
+.pic{
+    height: 100vh;
+    /* display: none; */
+}
+img{
+    vertical-align: middle;
+}
+.picnumber{
+    color: aliceblue;
+    font-size: 40px;
+    padding: 20px;
+    position: absolute;
+}
+.dotes{
+    text-align: center;
+}

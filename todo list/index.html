@@ -9,13 +9,15 @@
     <script src="javascript/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div id="newtask">
-            <input type="text" name="task" id="" placeholder="Add Tast">
-            <button id="push">Add</button>
+        <div id="myTask">
+            <h2>My To Do List</h2>
+            <input type="text" name="task" id="myinput" placeholder="Add Tasks">
+            <span onclick="newelement()" class="addBtn">Add</span>
         </div>
-        <hr>
-        <div id="tasks"></div>
-    </div>
+        <ul id="myul">
+            <li class="checked">Wake up Early</li>
+            <li>Work Out</li>
+            <li>Breakfast</li>
+        </ul>
 </body>
 </html>
