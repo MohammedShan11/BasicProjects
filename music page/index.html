@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <img src="css/images/music-logo-png-2335.png" class="logo" alt="">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">PLAYLIST</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="leftcol">
+                <h1>FEEL <BR> THE <BR> RYTHM</h1>
+            </div>
+            <div class="rightcol">
+                <h3>CLICK HERE TO PLAY</h3>
+                <img src="css/images/play.png" id="icon" alt="">
+                
+            </div>
+        </div>
+    </div>
+    <audio id="mysong" >
+        <source src="media/ackcent new.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var mysong=document.getElementById("mysong");
+        var icon=document.getElementById("icon");
+        icon.onclick=function(){
+            if(mysong.paused){
+                mysong.play();
+                icon.src="css/images/pause.png";
+            }else{
+                mysong.paused();
+                icon.src="css/images/play.png";
+            }
+        }    
+    </script>
+</body>
+</html>
