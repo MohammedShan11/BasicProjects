@@ -6,3 +6,6 @@ function myfunction(){
         a.style.display="block";
     }
 }
+// function f1(a){
+//     a.classList.toggle("bars");
+// }

@@ -27,3 +27,52 @@ ul li.checked{
     text-decoration: line-through;
     color: #fff;
 }
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+.close:hover{
+    background-color: #f44336;
+}
+.header{
+    background-color: #24f32f;
+    text-align: center;
+    color: rgb(241, 24, 24);
+    padding: 30px 40px;
+}
+.header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.header h2{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+input{
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+.addBtn{
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: rgb(10, 5, 5);
+    font-weight: 800;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.addBtn:hover{
+    background-color: #bbb;
+}

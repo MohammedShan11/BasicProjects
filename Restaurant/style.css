@@ -1,6 +1,6 @@
 header{
     text-align: center;
-    color: blueviolet;
+    color: rgb(234, 225, 241);
 }
 .head1{
  font-family: 'Gill Sans';
@@ -70,29 +70,36 @@ padding: 4px;
     color: rgb(13, 24, 8);
     background-color: rgb(240, 111, 36);
 }
+#container2{
+    display:flex;
+    justify-content: space-around;
+}
 #row2{
-    background: url(prices.jpeg);
-    background-repeat: no-repeat;
-    display: block;
-    float: left;
-    width: 50%;
-    height: 50;
+    
 }
 #row2 .btn{
-    margin-left:35%;
+    margin: auto;
 }
 #row3{
-    background: url(specials.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    float: left;
-    width: 50%;
-    height: 50%;
+    
 }
 #row3.btn{
-    margin-left:35%;
 }
 #container3 .btn{
-    border-radius: 10px;
+   border-radius: 10px;
+   background-color: orangered;
+}
+#head2{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 2.5rem;
+}
+#container3{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
 }
