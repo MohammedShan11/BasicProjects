@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="model-container" id="score-modal">
+            <div class="madel-content">
+                <h1>Congratulations,Quiz Completed.</h1>
+                <div class="grade-details">
+                    <p>Attempts : 10</p>
+                    <p>Wrong Answers : <span id="wrong-answer"></span> </p>
+                    <p>Right Answers : <span id="right-answer"></span> </p>
+                    <p>Grade : <span id="grade-pc"></span>%</p>
+                    <p> <span id="remarks"></span></p>
+                </div>
+                <div class="model-button">
+                    <button onclick="closeScoreModel()">Continue</button>
+                </div>
+            </div>
+        </div>
+        <div class="quiz-container">
+            <div class="quiz-detail">
+                <h1>Score : <span id="player-score"></span> / 10 </h1>
+                <h1>Question : <span id="question-number"></span> / 10 </h1>
+            </div>
+            <div class="question-container">
+                <h1 id="display-Question"></h1>
+            </div>
+            <div class="option-container">
+                <div class="model-container" id="option-model">
+                    <div class="content-container">
+                        <h1>Please Pick An Option</h1>
+                        <div class="model-button">
+                            <button onclick="closeOptionModel()">Continue </button>
+                        </div>
+                    </div>
+                </div>
+                <span>
+                    <input type="radio" name="option" id="option1" class="radio" value="optionA">
+                    <label for="option1" class="option" id="option1-label"></label>
+                </span>
+                <span>
+                    <input type="radio" name="option" id="option2" class="radio" value="optionB">
+                    <label for="option2" class="option" id="option2-label"></label>
+                </span>
+                <span>
+                    <input type="radio" name="option" id="option3" class="radio" value="optionC">
+                    <label for="option3" class="option" id="option3-label"></label>
+                </span>
+                <span>
+                    <input type="radio" name="option" id="option4" class="radio" value="optionD">
+                    <label for="option4" class="option" id="option4-label"></label>
+                </span>
+            </div>
+            <div class="next-button">
+                <button onclick="handleNextQuestion()">Next Question</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
