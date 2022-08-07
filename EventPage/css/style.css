@@ -11,10 +11,11 @@ position: fixed;
 background:url(images/bg.jpg);
 background-size: cover;
 padding: 50px;
+float: left;
 }
 div.content{
     margin: 20%;
-    background: rgba(50, 224, 44, 0.89);
+    background: rgba(43, 192, 38, 0.89);
 }
 div.content h1.head1{ 
     text-transform: uppercase;
